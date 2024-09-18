@@ -39,7 +39,7 @@
 
 ## Screenshots
 
-![screenshot](https://drive.google.com/file/d/1effTcU-q9WwHe-T2uCHR_p43nKZqouPv/view?usp=sharing)
+![screenshot](https://github.com/mostafaYasserDev/DrHeshamPortfolio/blob/main/public/img/Screenshot%202024-09-18%20034551.png)
 
 ## Contact Me & Live Site
 [Live Site](https://drheshamngim.web.app/)
