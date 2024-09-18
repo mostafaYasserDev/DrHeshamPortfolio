@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-analytics.js"></script>
+
+    <link rel="stylesheet" href="dashboard.css" />
+  </head>
+  <body>
+    <div class="dashboard-container">
+      <h1>Update Your Profile Information</h1>
+
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter your name" />
+        <button class="update-btn">Update</button>
+      </div>
+
+      <div class="form-group">
+        <label for="job-title">Job Title</label>
+        <input type="text" id="job-title" placeholder="Enter your job title" />
+        <button class="update-btn">Update</button>
+      </div>
+
+      <div class="form-group">
+        <label for="home-resume">Home Resume</label>
+        <textarea
+          id="home-resume"
+          rows="4"
+          placeholder="Enter your resume in home page"
+        ></textarea>
+        <button class="update-btn">Update</button>
+      </div>
+
+      <div class="form-group">
+        <label for="profile-image">Profile Image</label>
+        <input type="file" id="profile-image" />
+        <button class="update-btn">Update</button>
+      </div>
+
+      <div class="form-group">
+        <label for="cv">CV</label>
+        <input type="file" id="cv" />
+        <button class="update-btn">Update</button>
+      </div>
+      <div class="form-group">
+        <label for="about-me">About Me</label>
+        <textarea
+          id="about-me"
+          rows="4"
+          placeholder="Enter about me section"
+        ></textarea>
+        <button class="update-btn">Update</button>
+      </div>
+      <div class="form-group">
+        <label for="students">Number of Students</label>
+        <input
+          type="number"
+          id="students"
+          placeholder="Enter number of students"
+        />
+        <button class="update-btn">Update</button>
+      </div>
+
+      <div class="form-group">
+        <label for="experience">Years of Experience</label>
+        <input
+          type="number"
+          id="experience"
+          placeholder="Enter years of experience"
+        />
+        <button class="update-btn">Update</button>
+      </div>
+
+      <div class="form-group">
+        <label for="clients">Number of Clients</label>
+        <input
+          type="number"
+          id="clients"
+          placeholder="Enter number of clients"
+        />
+        <button class="update-btn">Update</button>
+      </div>
+
+      <div class="form-group">
+        <label for="reviews">Number of Reviews</label>
+        <input
+          type="number"
+          id="reviews"
+          placeholder="Enter number of reviews"
+        />
+        <button class="update-btn">Update</button>
+      </div>
+
+      <div class="form-group">
+        <label for="contact-resume">contact resume</label>
+        <textarea
+          type="text"
+          id="contact-resume"
+          rows="4"
+          placeholder="Enter contact resume "
+        ></textarea>
+        <button class="update-btn">Update</button>
+      </div>
+
+      <div class="form-group">
+        <label for="facebook">Facebook Link</label>
+        <input
+          type="text"
+          id="facebook"
+          placeholder="Enter Facebook profile link"
+        />
+        <button class="update-btn">Update</button>
+      </div>
+
+      <div class="form-group">
+        <label for="twitter">Twitter Link</label>
+        <input
+          type="text"
+          id="twitter"
+          placeholder="Enter Twitter profile link"
+        />
+        <button class="update-btn">Update</button>
+      </div>
+
+      <div class="form-group">
+        <label for="linkedin">LinkedIn Link</label>
+        <input
+          type="text"
+          id="linkedin"
+          placeholder="Enter LinkedIn profile link"
+        />
+        <button class="update-btn">Update</button>
+      </div>
+
+      <div class="form-group">
+        <label for="youtube">YouTube Link</label>
+        <input
+          type="text"
+          id="youtube"
+          placeholder="Enter YouTube channel link"
+        />
+        <button class="update-btn">Update</button>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email" />
+        <button class="update-btn">Update</button>
+      </div>
+
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input type="text" id="phone" placeholder="Enter your phone number" />
+        <button class="update-btn">Update</button>
+      </div>
+
+      <div class="form-group">
+        <label for="location">Location</label>
+        <input type="text" id="location" placeholder="Enter your location" />
+        <button class="update-btn">Update</button>
+      </div>
+
+      <div class="form-group">
+        <label for="languages">Languages</label>
+        <input type="text" id="languages" placeholder="Enter languages" />
+        <button class="update-btn">Update</button>
+      </div>
+
+      <div class="form-group">
+        <label for="education">Education</label>
+        <input type="text" id="education" placeholder="Enter education" />
+        <button class="update-btn">Update</button>
+      </div>
+    </div>
+    <script src="dashboard.js"></script>
+  </body>
+</html>
