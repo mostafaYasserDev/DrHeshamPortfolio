@@ -1,13 +1,13 @@
 // Initialize Firebase
 const firebaseConfig = {
-  apiKey: "AIzaSyACvMULzCWpxmAjCme3bhSrUDeehpuKIPI",
-  authDomain: "drheshamngim.firebaseapp.com",
-  databaseURL: "https://drheshamngim-default-rtdb.firebaseio.com",
-  projectId: "drheshamngim",
-  storageBucket: "drheshamngim.appspot.com",
-  messagingSenderId: "810852052392",
-  appId: "1:810852052392:web:669c45a698ca9296db819d",
-  measurementId: "G-H8LE96VNHK",
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
+  measurementId: "",
 };
 
 firebase.initializeApp(firebaseConfig);
